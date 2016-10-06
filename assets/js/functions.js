@@ -3,7 +3,7 @@ $(document).ready(function() {
 
   $('.contact-nav').click(function(){
   	$('.modal-bg').addClass('is-open');
-  	// return false
+  
   });
 
    $('.close').click(function(){
@@ -18,9 +18,9 @@ $(document).ready(function() {
   	
   });
 
-  $('#account-manager').click(function(){
+  $('#Account-Assistant').click(function(){
     $('.job-modal-bg-1').addClass('is-open');
-    // return false
+ 
   });
 
    $('.job-close').click(function(){
@@ -37,9 +37,9 @@ $(document).ready(function() {
 
 
 
-$('#software-engineer').click(function(){
+$('#Application-Consultant').click(function(){
     $('.job-modal-bg-2').addClass('is-open');
-    // return false
+  
   });
 
    $('.job-close').click(function(){
@@ -58,7 +58,7 @@ $('#software-engineer').click(function(){
 
 
 
-$('#administrative-assistant').click(function(){
+$('#Business-Consultant').click(function(){
     $('.job-modal-bg-3').addClass('is-open');
     // return false
   });
@@ -82,7 +82,7 @@ $('#administrative-assistant').click(function(){
 
 
 
-$('#QA-engineer').click(function(){
+$('#Business-Development-Manager').click(function(){
     $('.job-modal-bg-4').addClass('is-open');
     // return false
   });
@@ -109,7 +109,7 @@ $('#QA-engineer').click(function(){
 
 
 
-$('#application-consultant').click(function(){
+$('#Marketing-Executive').click(function(){
     $('.job-modal-bg-5').addClass('is-open');
     // return false
   });
@@ -129,14 +129,7 @@ $('#application-consultant').click(function(){
 
 
 
-
-
-
-
-
-
-
-$('#application-support-consultant').click(function(){
+$('#Software-Engineer').click(function(){
     $('.job-modal-bg-6').addClass('is-open');
     // return false
   });
@@ -152,6 +145,51 @@ $('#application-support-consultant').click(function(){
 
     
   });
+
+
+   
+   $('#System-Admin').click(function(){
+    $('.job-modal-bg-7').addClass('is-open');
+    // return false
+  });
+
+   $('.job-close').click(function(){
+    $('.job-modal-bg-7').removeClass('is-open');
+  });
+
+   $('.job-modal-bg-7').click(function(event){
+    if (event.target == this){
+      $('.job-modal-bg-7').removeClass('is-open');
+    }
+
+    
+  });
+
+
+
+
+
+
+$('#Technical-Support-Consultant').click(function(){
+    $('.job-modal-bg-8').addClass('is-open');
+    // return false
+  });
+
+   $('.job-close').click(function(){
+    $('.job-modal-bg-8').removeClass('is-open');
+  });
+
+   $('.job-modal-bg-8').click(function(event){
+    if (event.target == this){
+      $('.job-modal-bg-8').removeClass('is-open');
+    }
+
+    
+  });
+
+
+
+
 
 
 

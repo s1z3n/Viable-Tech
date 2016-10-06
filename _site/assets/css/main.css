@@ -922,7 +922,7 @@ a.contact-btn {
       justify-content: center;
       order: 1;
       display: none; } }
-.job-modal-bg-1, .job-modal-bg-2, .job-modal-bg-3, .job-modal-bg-4, .job-modal-bg-5, .job-modal-bg-6 {
+.job-modal-bg-1, .job-modal-bg-2, .job-modal-bg-3, .job-modal-bg-4, .job-modal-bg-5, .job-modal-bg-6, .job-modal-bg-7, .job-modal-bg-8 {
   background: rgba(45, 62, 82, 0.95);
   height: 100vh;
   width: 100%;
@@ -935,12 +935,12 @@ a.contact-btn {
   flex-wrap: wrap;
   opacity: 0;
   pointer-events: none; }
-  .job-modal-bg-1.is-open, .job-modal-bg-2.is-open, .job-modal-bg-3.is-open, .job-modal-bg-4.is-open, .job-modal-bg-5.is-open, .job-modal-bg-6.is-open {
+  .job-modal-bg-1.is-open, .job-modal-bg-2.is-open, .job-modal-bg-3.is-open, .job-modal-bg-4.is-open, .job-modal-bg-5.is-open, .job-modal-bg-6.is-open, .job-modal-bg-7.is-open, .job-modal-bg-8.is-open {
     opacity: 1;
     pointer-events: auto; }
-    .job-modal-bg-1.is-open .job-modal-box, .job-modal-bg-2.is-open .job-modal-box, .job-modal-bg-3.is-open .job-modal-box, .job-modal-bg-4.is-open .job-modal-box, .job-modal-bg-5.is-open .job-modal-box, .job-modal-bg-6.is-open .job-modal-box {
+    .job-modal-bg-1.is-open .job-modal-box, .job-modal-bg-2.is-open .job-modal-box, .job-modal-bg-3.is-open .job-modal-box, .job-modal-bg-4.is-open .job-modal-box, .job-modal-bg-5.is-open .job-modal-box, .job-modal-bg-6.is-open .job-modal-box, .job-modal-bg-7.is-open .job-modal-box, .job-modal-bg-8.is-open .job-modal-box {
       transform: translate(0px, 0px); }
-  .job-modal-bg-1 .job-modal-box, .job-modal-bg-2 .job-modal-box, .job-modal-bg-3 .job-modal-box, .job-modal-bg-4 .job-modal-box, .job-modal-bg-5 .job-modal-box, .job-modal-bg-6 .job-modal-box {
+  .job-modal-bg-1 .job-modal-box, .job-modal-bg-2 .job-modal-box, .job-modal-bg-3 .job-modal-box, .job-modal-bg-4 .job-modal-box, .job-modal-bg-5 .job-modal-box, .job-modal-bg-6 .job-modal-box, .job-modal-bg-7 .job-modal-box, .job-modal-bg-8 .job-modal-box {
     display: flex;
     position: relative;
     background-color: white;
@@ -950,7 +950,7 @@ a.contact-btn {
     margin: 20px;
     padding: 20px;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.4); }
-    .job-modal-bg-1 .job-modal-box .job-close, .job-modal-bg-2 .job-modal-box .job-close, .job-modal-bg-3 .job-modal-box .job-close, .job-modal-bg-4 .job-modal-box .job-close, .job-modal-bg-5 .job-modal-box .job-close, .job-modal-bg-6 .job-modal-box .job-close {
+    .job-modal-bg-1 .job-modal-box .job-close, .job-modal-bg-2 .job-modal-box .job-close, .job-modal-bg-3 .job-modal-box .job-close, .job-modal-bg-4 .job-modal-box .job-close, .job-modal-bg-5 .job-modal-box .job-close, .job-modal-bg-6 .job-modal-box .job-close, .job-modal-bg-7 .job-modal-box .job-close, .job-modal-bg-8 .job-modal-box .job-close {
       position: absolute;
       top: 30px;
       right: 30px;
@@ -958,23 +958,23 @@ a.contact-btn {
       font-size: 40px;
       line-height: 1;
       color: #444; }
-      .job-modal-bg-1 .job-modal-box .job-close:hover, .job-modal-bg-2 .job-modal-box .job-close:hover, .job-modal-bg-3 .job-modal-box .job-close:hover, .job-modal-bg-4 .job-modal-box .job-close:hover, .job-modal-bg-5 .job-modal-box .job-close:hover, .job-modal-bg-6 .job-modal-box .job-close:hover {
+      .job-modal-bg-1 .job-modal-box .job-close:hover, .job-modal-bg-2 .job-modal-box .job-close:hover, .job-modal-bg-3 .job-modal-box .job-close:hover, .job-modal-bg-4 .job-modal-box .job-close:hover, .job-modal-bg-5 .job-modal-box .job-close:hover, .job-modal-bg-6 .job-modal-box .job-close:hover, .job-modal-bg-7 .job-modal-box .job-close:hover, .job-modal-bg-8 .job-modal-box .job-close:hover {
         color: white;
         background-color: #EF4D49; }
-    .job-modal-bg-1 .job-modal-box .job-content h1, .job-modal-bg-2 .job-modal-box .job-content h1, .job-modal-bg-3 .job-modal-box .job-content h1, .job-modal-bg-4 .job-modal-box .job-content h1, .job-modal-bg-5 .job-modal-box .job-content h1, .job-modal-bg-6 .job-modal-box .job-content h1 {
+    .job-modal-bg-1 .job-modal-box .job-content h1, .job-modal-bg-2 .job-modal-box .job-content h1, .job-modal-bg-3 .job-modal-box .job-content h1, .job-modal-bg-4 .job-modal-box .job-content h1, .job-modal-bg-5 .job-modal-box .job-content h1, .job-modal-bg-6 .job-modal-box .job-content h1, .job-modal-bg-7 .job-modal-box .job-content h1, .job-modal-bg-8 .job-modal-box .job-content h1 {
       font-size: 1.6em;
       text-transform: uppercase;
       letter-spacing: 0.2px;
       line-height: 1.4;
       padding-top: 10px; }
-    .job-modal-bg-1 .job-modal-box .job-content h2, .job-modal-bg-2 .job-modal-box .job-content h2, .job-modal-bg-3 .job-modal-box .job-content h2, .job-modal-bg-4 .job-modal-box .job-content h2, .job-modal-bg-5 .job-modal-box .job-content h2, .job-modal-bg-6 .job-modal-box .job-content h2 {
+    .job-modal-bg-1 .job-modal-box .job-content h2, .job-modal-bg-2 .job-modal-box .job-content h2, .job-modal-bg-3 .job-modal-box .job-content h2, .job-modal-bg-4 .job-modal-box .job-content h2, .job-modal-bg-5 .job-modal-box .job-content h2, .job-modal-bg-6 .job-modal-box .job-content h2, .job-modal-bg-7 .job-modal-box .job-content h2, .job-modal-bg-8 .job-modal-box .job-content h2 {
       font-size: 1.2em; }
-    .job-modal-bg-1 .job-modal-box .job-content ul, .job-modal-bg-2 .job-modal-box .job-content ul, .job-modal-bg-3 .job-modal-box .job-content ul, .job-modal-bg-4 .job-modal-box .job-content ul, .job-modal-bg-5 .job-modal-box .job-content ul, .job-modal-bg-6 .job-modal-box .job-content ul {
+    .job-modal-bg-1 .job-modal-box .job-content ul, .job-modal-bg-2 .job-modal-box .job-content ul, .job-modal-bg-3 .job-modal-box .job-content ul, .job-modal-bg-4 .job-modal-box .job-content ul, .job-modal-bg-5 .job-modal-box .job-content ul, .job-modal-bg-6 .job-modal-box .job-content ul, .job-modal-bg-7 .job-modal-box .job-content ul, .job-modal-bg-8 .job-modal-box .job-content ul {
       font-size: 0.8em;
       padding-left: 30px; }
-    .job-modal-bg-1 .job-modal-box .job-content ul, .job-modal-bg-1 .job-modal-box .job-content li, .job-modal-bg-2 .job-modal-box .job-content ul, .job-modal-bg-2 .job-modal-box .job-content li, .job-modal-bg-3 .job-modal-box .job-content ul, .job-modal-bg-3 .job-modal-box .job-content li, .job-modal-bg-4 .job-modal-box .job-content ul, .job-modal-bg-4 .job-modal-box .job-content li, .job-modal-bg-5 .job-modal-box .job-content ul, .job-modal-bg-5 .job-modal-box .job-content li, .job-modal-bg-6 .job-modal-box .job-content ul, .job-modal-bg-6 .job-modal-box .job-content li {
+    .job-modal-bg-1 .job-modal-box .job-content ul, .job-modal-bg-1 .job-modal-box .job-content li, .job-modal-bg-2 .job-modal-box .job-content ul, .job-modal-bg-2 .job-modal-box .job-content li, .job-modal-bg-3 .job-modal-box .job-content ul, .job-modal-bg-3 .job-modal-box .job-content li, .job-modal-bg-4 .job-modal-box .job-content ul, .job-modal-bg-4 .job-modal-box .job-content li, .job-modal-bg-5 .job-modal-box .job-content ul, .job-modal-bg-5 .job-modal-box .job-content li, .job-modal-bg-6 .job-modal-box .job-content ul, .job-modal-bg-6 .job-modal-box .job-content li, .job-modal-bg-7 .job-modal-box .job-content ul, .job-modal-bg-7 .job-modal-box .job-content li, .job-modal-bg-8 .job-modal-box .job-content ul, .job-modal-bg-8 .job-modal-box .job-content li {
       list-style-type: inherit; }
-    .job-modal-bg-1 .job-modal-box .job-content hr, .job-modal-bg-2 .job-modal-box .job-content hr, .job-modal-bg-3 .job-modal-box .job-content hr, .job-modal-bg-4 .job-modal-box .job-content hr, .job-modal-bg-5 .job-modal-box .job-content hr, .job-modal-bg-6 .job-modal-box .job-content hr {
+    .job-modal-bg-1 .job-modal-box .job-content hr, .job-modal-bg-2 .job-modal-box .job-content hr, .job-modal-bg-3 .job-modal-box .job-content hr, .job-modal-bg-4 .job-modal-box .job-content hr, .job-modal-bg-5 .job-modal-box .job-content hr, .job-modal-bg-6 .job-modal-box .job-content hr, .job-modal-bg-7 .job-modal-box .job-content hr, .job-modal-bg-8 .job-modal-box .job-content hr {
       margin-bottom: 25px;
       margin-top: 15px; }
 
@@ -982,7 +982,7 @@ a.contact-btn {
   display: flex;
   justify-content: center;
   background-color: #EF4D49;
-  margin: 10px;
+  margin: 25px;
   padding: 8px;
   min-height: 40px;
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
