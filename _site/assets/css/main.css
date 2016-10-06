@@ -1312,14 +1312,14 @@ section.solution.corporate-4 {
     .overlay div.text-wrapper {
       padding-top: 80px;
       padding-bottom: 80px; } }
-.success-in-bank div.flex .col-2 .success-in, .success-in-corporate div.flex .col-2 .success-in, .success-in-investment div.flex .col-2 .success-in {
+section div.flex .col-2 .success-in {
   font-size: 24px;
   text-transform: uppercase; }
-.success-in-bank div.flex .col-2 p, .success-in-corporate div.flex .col-2 p, .success-in-investment div.flex .col-2 p {
+section div.flex .col-2 p {
   font-size: 16px; }
-.success-in-bank div.flex .col-2 ul, .success-in-corporate div.flex .col-2 ul, .success-in-investment div.flex .col-2 ul {
+section div.flex .col-2 ul {
   margin-left: 15px; }
-.success-in-bank div.flex .col-2 ul.list, .success-in-bank div.flex .col-2 li, .success-in-corporate div.flex .col-2 ul.list, .success-in-corporate div.flex .col-2 li, .success-in-investment div.flex .col-2 ul.list, .success-in-investment div.flex .col-2 li {
+section div.flex .col-2 ul.list, section div.flex .col-2 li {
   list-style-type: initial;
   padding: 5px;
   font-size: 16px; }
