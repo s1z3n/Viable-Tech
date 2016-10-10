@@ -14,15 +14,15 @@ header
 		width: 100%
 		display: flex
 		justify-content: space-between
-	
+
 		.logo
-		
+
 			+size(150px 65px)
-			background: url(/assets/images/favicon.png)
+			background: url(/TriAset/assets/images/favicon.png)
 			background-size: cover
 			margin: 5px 20px
 
-			
+
 		.nav-main
 			display: flex
 			flex-direction: row
@@ -63,17 +63,17 @@ header
 
 
 .level-1
-	ul 
+	ul
 		margin-top: 30px
 		min-height: 180px
 
 		.tiny-line
-			
+
 			content: ""
 			display: block
-			height: 1px 
-			border-bottom: 1px solid #999	
-			width: 30px 
+			height: 1px
+			border-bottom: 1px solid #999
+			width: 30px
 			opacity: 0.5
 
 
@@ -115,9 +115,9 @@ nav ul li ul
 
 						&:hover
 							border-bottom: none
-			
-						
-					ul 
+
+
+					ul
 						margin-top: 10px
 						margin-bottom: 20px
 						min-height: 120px
@@ -126,14 +126,14 @@ nav ul li ul
 							margin: 20px auto
 							display: block
 							width: 70px
-						
+
 
 				#contact
 					margin: auto
-							
+
 
 	// hamburger icon with transition //
-	
+
 	.nav-label
 		.mobile-nav-toggle
 			//background-color: pink
@@ -151,18 +151,18 @@ nav ul li ul
 			span:after
 				content: ""
 				display: block
-				height: 2px 
+				height: 2px
 				background: #333
 				position: relative
 				transition: all 0.3s ease-in-out
-			
+
 			span:before
 				top: 12px
 
 			span
-				top: 20px		
+				top: 20px
 
-			span:after	
+			span:after
 				top: -14px
 
 
@@ -172,14 +172,14 @@ nav ul li ul
 
 .nav-check:checked ~ .nav-label
 	span
-		background: transparent	
+		background: transparent
 	span:before, span:after
 		transform-origin: center
 		transform: rotate(45deg)
 		top: 0px
-	span:after	
+	span:after
 		transform: rotate(-45deg)
-		top: -2px	
+		top: -2px
 
 
 .nav-check:checked ~ .nav-main
@@ -187,23 +187,17 @@ nav ul li ul
 
 .nav-check
 	position: absolute
-	// top: -10em	
+	// top: -10em
 	visibility: hidden
 
 
 
 
 
-// positioner is a class to control the max width of items and containers	
+// positioner is a class to control the max width of items and containers
 .positioner
 	max-width: 1250px
 	margin: 0px auto
 	//width: 100%
-	
+
 	//position: fixed
-
-
-
-
-
-

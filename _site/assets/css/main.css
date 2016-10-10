@@ -310,7 +310,7 @@ header {
     header nav .logo {
       height: 65px;
       width: 150px;
-      background: url(/assets/images/favicon.png);
+      background: url(/TriAset/assets/images/favicon.png);
       background-size: cover;
       margin: 5px 20px; }
     header nav .nav-main {
