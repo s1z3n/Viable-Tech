@@ -1190,7 +1190,7 @@ section.solution.bank-1 {
   background: url(../images/look-into-the-future.jpg) center center;
   background-size: cover;
   height: 900px;
-  margin-top: 30px; }
+  margin-top: 400px; }
 
 @media (max-width: 500px) {
   section.solution#bank-1 {
@@ -1199,9 +1199,9 @@ section.solution.bank-1 {
   section.solution#bank-1 {
     height: 1200px; } }
 section.solution.investment {
-  background: url(../images/look-into-future.jpg) center center;
+  background: url(../images/steps-2.jpg) center center;
   background-size: cover;
-  height: 750px; }
+  height: 800px; }
 
 section.solution.bank-2 {
   padding-top: 0px;
