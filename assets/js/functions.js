@@ -3,7 +3,7 @@ $(document).ready(function() {
 
   $('.contact-nav').click(function(){
   	$('.modal-bg').addClass('is-open');
-  
+
   });
 
    $('.close').click(function(){
@@ -15,12 +15,12 @@ $(document).ready(function() {
    		$('.modal-bg').removeClass('is-open');
    	}
 
-  	
+
   });
 
   $('#Account-Assistant').click(function(){
     $('.job-modal-bg-1').addClass('is-open');
- 
+
   });
 
    $('.job-close').click(function(){
@@ -32,14 +32,14 @@ $(document).ready(function() {
       $('.job-modal-bg-1').removeClass('is-open');
     }
 
-    
+
   });
 
 
 
 $('#Application-Consultant').click(function(){
     $('.job-modal-bg-2').addClass('is-open');
-  
+
   });
 
    $('.job-close').click(function(){
@@ -51,7 +51,7 @@ $('#Application-Consultant').click(function(){
       $('.job-modal-bg-2').removeClass('is-open');
     }
 
-    
+
   });
 
 
@@ -72,7 +72,7 @@ $('#Business-Consultant').click(function(){
       $('.job-modal-bg-3').removeClass('is-open');
     }
 
-    
+
   });
 
 
@@ -96,7 +96,7 @@ $('#Business-Development-Manager').click(function(){
       $('.job-modal-bg-4').removeClass('is-open');
     }
 
-    
+
   });
 
 
@@ -123,7 +123,7 @@ $('#Marketing-Executive').click(function(){
       $('.job-modal-bg-5').removeClass('is-open');
     }
 
-    
+
   });
 
 
@@ -143,12 +143,12 @@ $('#Software-Engineer').click(function(){
       $('.job-modal-bg-6').removeClass('is-open');
     }
 
-    
+
   });
 
 
-   
-   $('#System-Admin').click(function(){
+
+   $('#it-executive').click(function(){
     $('.job-modal-bg-7').addClass('is-open');
     // return false
   });
@@ -162,7 +162,7 @@ $('#Software-Engineer').click(function(){
       $('.job-modal-bg-7').removeClass('is-open');
     }
 
-    
+
   });
 
 
@@ -184,7 +184,7 @@ $('#Technical-Support-Consultant').click(function(){
       $('.job-modal-bg-8').removeClass('is-open');
     }
 
-    
+
   });
 
 
@@ -196,13 +196,3 @@ $('#Technical-Support-Consultant').click(function(){
 
 
 });
-
-
-
-
-
-
-
-
-
-
