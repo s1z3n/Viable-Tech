@@ -1,7 +1,7 @@
-.job-modal-bg-1, .job-modal-bg-2, .job-modal-bg-3, .job-modal-bg-4, .job-modal-bg-5, .job-modal-bg-6, .job-modal-bg-7, .job-modal-bg-8
+.job-modal-bg-1, .job-modal-bg-2, .job-modal-bg-3, .job-modal-bg-4, .job-modal-bg-5, .job-modal-bg-6, .job-modal-bg-7, .job-modal-bg-8, .job-modal-bg-9, .job-modal-bg-10
 	// background-color: $accent-color
-	background: fade-out($blue-grey, 0.05) 
-	 
+	background: fade-out($blue-grey, 0.05)
+
 	height: 100vh
 	width: 100%
 	top: 0
@@ -14,13 +14,13 @@
 	opacity: 0
 	pointer-events: none
 	// transition: all 300ms ease-in-out
-	
+
 	&.is-open
 		opacity: 1
 		pointer-events: auto
 
 		.job-modal-box
-			transform: translate(0px, 0px)	
+			transform: translate(0px, 0px)
 
 
 
@@ -53,7 +53,7 @@
 
 
 		.job-content
-			h1 
+			h1
 				font-size: 1.6em
 				text-transform: uppercase
 				letter-spacing: 0.2px
@@ -61,18 +61,20 @@
 				padding-top: 10px
 				// color: #455A64
 			h2
-					
+
 				font-size: 1.2em
 				// color: #607D8B
-			ul 
+			ul
 				font-size: 0.8em
 				padding-left: 30px
 
-			ul, li 
+			ul, li
 				list-style-type: inherit
+				.no-bullet
+					list-style: none
 
-			hr 
-				margin-bottom: 25px	
+			hr
+				margin-bottom: 25px
 				margin-top: 15px
 
 .resume
@@ -91,25 +93,25 @@
 		background-color: #f6f6f8
 
 
-	a 
+	a
 		font-size: 24px
 		color: white
-		font-weight: 500	
+		font-weight: 500
 		// line-height: 40px
 		// padding: 20px
 
+
 @media (max-width: 640px)
-	p 
+	p
 
 		font-size: 16px
 	ul
-		li 
+		li
 			font-size: 15px
 
 
-@media (max-width: 400px)	
+@media (max-width: 400px)
 	.resume
 		min-height: 32px
-		a 
-			font-size: 18px			
-				
+		a
+			font-size: 18px

@@ -148,7 +148,7 @@ $('#Software-Engineer').click(function(){
 
 
 
-   $('#it-executive').click(function(){
+   $('#it-engineer').click(function(){
     $('.job-modal-bg-7').addClass('is-open');
     // return false
   });
@@ -170,7 +170,7 @@ $('#Software-Engineer').click(function(){
 
 
 
-$('#Technical-Support-Consultant').click(function(){
+$('#project-manager').click(function(){
     $('.job-modal-bg-8').addClass('is-open');
     // return false
   });
@@ -187,6 +187,22 @@ $('#Technical-Support-Consultant').click(function(){
 
   });
 
+  $('#domain-knowledge-expert').click(function(){
+      $('.job-modal-bg-9').addClass('is-open');
+      // return false
+    });
+
+     $('.job-close').click(function(){
+      $('.job-modal-bg-9').removeClass('is-open');
+    });
+
+     $('.job-modal-bg-9').click(function(event){
+      if (event.target == this){
+        $('.job-modal-bg-9').removeClass('is-open');
+      }
+
+
+    });
 
 
 
