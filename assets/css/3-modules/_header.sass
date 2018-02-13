@@ -19,18 +19,14 @@ header
 
 
 		.logo
-
-			+size(150px 65px)
-			background: url(/TriAset/assets/images/favicon.png)
-			background-size: cover
-			margin: 5px 20px
+			margin: 14px 24px 0px
 
 
 		.nav-main
 			display: flex
 			flex-direction: row
 			float: right
-			margin: 15px 30px 5px auto
+			margin: 12px 30px 5px auto
 			padding: 5px 10px 0px 10px
 
 			.level-1
@@ -48,9 +44,11 @@ header
 
 
 			#contact
-				border: 1px solid $accent-color
+				// border: 1px solid $accent-color
+				background-color: $accent-color
 				padding: 10px 40px
-				color: $accent-color
+				color: #fff
+				font-weight: normal
 				margin-left: 30px
 				&:hover
 					background-color: $accent-color
@@ -102,7 +100,7 @@ nav ul li ul
 			flex-direction: column
 
 			.logo
-				+size(120px 50px)
+				margin: 10px 24px 0px
 
 			.nav-main
 				display: none

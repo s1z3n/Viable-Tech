@@ -308,16 +308,12 @@ header {
     display: flex;
     justify-content: space-between; }
     header nav .logo {
-      height: 65px;
-      width: 150px;
-      background: url(/TriAset/assets/images/favicon.png);
-      background-size: cover;
-      margin: 5px 20px; }
+      margin: 14px 24px 0px; }
     header nav .nav-main {
       display: flex;
       flex-direction: row;
       float: right;
-      margin: 15px 30px 5px auto;
+      margin: 12px 30px 5px auto;
       padding: 5px 10px 0px 10px; }
       header nav .nav-main .level-1 {
         margin: 0px;
@@ -331,12 +327,13 @@ header {
           header nav .nav-main .level-1 .nav-item:hover {
             border-bottom: 1px solid #999999; }
       header nav .nav-main #contact {
-        border: 1px solid #EF4D49;
+        background-color: #29abe2;
         padding: 10px 40px;
-        color: #EF4D49;
+        color: #fff;
+        font-weight: normal;
         margin-left: 30px; }
         header nav .nav-main #contact:hover {
-          background-color: #EF4D49;
+          background-color: #29abe2;
           color: white; }
 
 .level-2 {
@@ -367,8 +364,7 @@ nav ul li ul {
   header nav {
     flex-direction: column; }
     header nav .logo {
-      height: 50px;
-      width: 120px; }
+      margin: 10px 24px 0px; }
     header nav .nav-main {
       display: none;
       flex-direction: column;
@@ -437,7 +433,7 @@ nav ul li ul {
 
 section.hero {
   border-sizing: border-box;
-  height: 550px;
+  height: 450px;
   background: url(../images/home-hero2.jpg) center center;
   background-size: cover;
   background-attachment: fixed;
@@ -779,19 +775,19 @@ a.contact-btn {
       line-height: 1;
       color: white; }
       .modal-bg .modal-box .close:hover {
-        background-color: #EF4D49; }
+        background-color: #29abe2; }
     .modal-bg .modal-box .email {
       margin: 20px;
       display: flex;
       height: 60px;
       align-items: center; }
       .modal-bg .modal-box .email .email-btn {
-        background-color: #EF4D49;
+        background-color: #29abe2;
         width: 60px;
         height: 60px;
         border-radius: 50px; }
         .modal-bg .modal-box .email .email-btn:hover {
-          background-color: #f37b78; }
+          background-color: #56bde8; }
         .modal-bg .modal-box .email .email-btn i {
           font-size: 40px;
           color: white;
@@ -800,9 +796,9 @@ a.contact-btn {
           display: block;
           line-height: 1; }
       .modal-bg .modal-box .email .lead {
-        font-size: 20px;
+        font-size: 18px;
         display: inline-block;
-        margin-left: 20px; }
+        margin-left: 12px; }
     .modal-bg .modal-box .line {
       height: 1px;
       background-color: #ddd;
@@ -824,9 +820,9 @@ a.contact-btn {
             margin-left: -10px;
             padding-right: 10px; }
         .modal-bg .modal-box .location .address p {
-          font-size: 13px;
+          font-size: 15px;
           line-height: 1.5;
-          max-width: 160px;
+          max-width: 290px;
           text-align: left;
           padding-left: 10px;
           margin-bottom: 5px; }
@@ -834,7 +830,7 @@ a.contact-btn {
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: #EF4D49;
+      background-color: #29abe2;
       margin: 20px;
       padding: 8px;
       box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
@@ -963,7 +959,7 @@ a.contact-btn {
       color: #444; }
       .job-modal-bg-1 .job-modal-box .job-close:hover, .job-modal-bg-2 .job-modal-box .job-close:hover, .job-modal-bg-3 .job-modal-box .job-close:hover, .job-modal-bg-4 .job-modal-box .job-close:hover, .job-modal-bg-5 .job-modal-box .job-close:hover, .job-modal-bg-6 .job-modal-box .job-close:hover, .job-modal-bg-7 .job-modal-box .job-close:hover, .job-modal-bg-8 .job-modal-box .job-close:hover, .job-modal-bg-9 .job-modal-box .job-close:hover, .job-modal-bg-10 .job-modal-box .job-close:hover {
         color: white;
-        background-color: #EF4D49; }
+        background-color: #29abe2; }
     .job-modal-bg-1 .job-modal-box .job-content h1, .job-modal-bg-2 .job-modal-box .job-content h1, .job-modal-bg-3 .job-modal-box .job-content h1, .job-modal-bg-4 .job-modal-box .job-content h1, .job-modal-bg-5 .job-modal-box .job-content h1, .job-modal-bg-6 .job-modal-box .job-content h1, .job-modal-bg-7 .job-modal-box .job-content h1, .job-modal-bg-8 .job-modal-box .job-content h1, .job-modal-bg-9 .job-modal-box .job-content h1, .job-modal-bg-10 .job-modal-box .job-content h1 {
       font-size: 1.6em;
       text-transform: uppercase;
@@ -986,7 +982,7 @@ a.contact-btn {
 .resume {
   display: flex;
   justify-content: center;
-  background-color: #EF4D49;
+  background-color: #29abe2;
   margin: 25px;
   padding: 8px;
   min-height: 40px;
@@ -1152,7 +1148,7 @@ section.success-story {
       font-size: 14px; }
 
 #demo {
-  background-color: #EF4D49;
+  background-color: #29abe2;
   color: white;
   border: none;
   margin-right: 10px;
@@ -1376,7 +1372,7 @@ section div.flex .col-2 ul.list, section div.flex .col-2 li {
     color: #64b5f6; }
 
 .job-listing-section {
-  width: 340px;
+  width: 100%;
   margin-top: 40px; }
   .job-listing-section ul li {
     font-size: 16px; }
